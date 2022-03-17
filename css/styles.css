@@ -1,0 +1,61 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /*background: url('https://i.ibb.co/R7GXbR9/bg.png');*/
+  /*background: url('');
+  background-size: cover;
+  background-repeat: repeat;*/
+  background-color: white;
+  color: white;
+  /*display: flex;
+  align-items: center;
+  /*height: 100vh;*/
+}
+
+.navbar {
+  background-color: #191919; color: white; padding: 2% 5%;
+}
+
+@media (max-width: 720px) {
+  .navbar {
+    background-color: #191919; color: white; padding: 2% 5%;
+  }
+}
+
+@media (max-width: 720px) {
+  .navimage .navbar-brand {
+    height: auto;
+  }
+}
+
+.navbar-toggler {
+  padding: 0;
+  border: 0
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+
+.nav-link {
+  color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.footer {
+  font-size: 15px;
+  text-align: center;
+  padding: 0;
+  font-weight: 600;
+  color: white;
+  background-color: #3d4122;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    font-size: 12px;
+  }
+}
