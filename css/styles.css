@@ -43,10 +43,15 @@ body {
   box-shadow: 0 0 0 0;
 }
 
-.nav-link {
-  color: white;
-  padding-top: 0;
-  padding-bottom: 0;
+.navbar-nav .nav-link {
+    padding-right: 34px !important;
+    padding-left: 0;
+}
+
+@media (max-width: 700px) {
+  . {
+
+  }
 }
 
 .con1 {
