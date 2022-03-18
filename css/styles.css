@@ -62,7 +62,7 @@ p {
   background-size: cover;
   width: auto;
   background-position: center;
-  margin-top: -1%;
+  margin-top: -2%;
 }
 
 @media (max-width: 700px) {
