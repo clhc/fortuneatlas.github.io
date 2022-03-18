@@ -68,7 +68,7 @@ p {
   .landingfirst {
     background: url('https://www.thebalancecareers.com/thmb/u0JbAvL6z32W9lgUXfUdjLA_iFw=/1333x1000/smart/filters:no_upscale()/nurses-discussing-over-documents-in-hospital-493216353-595690893df78c4eb647536e-5bd78e3446e0fb0051debf7f.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 }
 
