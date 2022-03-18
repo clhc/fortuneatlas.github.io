@@ -56,6 +56,12 @@ p {
   . {}
 }
 
+.carddiv {
+  background-color:;
+  color: white;
+  padding: 0 5%;
+}
+
 .con1 {
   padding: 2% 5% 0 5%;
 }
