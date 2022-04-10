@@ -15,7 +15,7 @@ body {
 .navbar {
   background-color: #191919;
   color: white;
-  padding: 2% 5%;
+  padding: 2% 6%;
 }
 
 @media (max-width: 720px) {
@@ -23,6 +23,10 @@ body {
     background-color: #191919;
     color: white;
     padding: 2% 5%;
+  }
+
+  .nav-item {
+    font-size: 11px;
   }
 }
 
@@ -60,8 +64,8 @@ p {
 }
 
 .firstconpad {
-  padding-top: 8rem !important;
-  padding-bottom: 8rem !important;
+  padding-top: 10rem !important;
+  padding-bottom: 10rem !important;
 }
 
 @media (max-width: 700px) {
@@ -71,8 +75,56 @@ p {
   }
 }
 
+.secondconpad {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+@media (max-width: 700px) {
+  .row {
+    padding-top: 2rem !important;
+    padding-bottom: 1rem !important;
+    --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+  }
+}
+
+.col-sm {
+  padding-right: 6rem !important;
+  padding-left: 6rem !important;
+}
+
+@media (max-width: 700px) {
+  .col-sm {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+.ourservice {
+  text-align: center !important;
+  padding-bottom: 2rem !important;
+}
+
+@media (max-width: 700px) {
+  .ourservice {
+    text-align: center !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+.w-100 {
+  padding-top: 4rem !important;
+}
+
+@media (max-width: 700px) {
+  .w-100 {
+    padding-top: 0 !important;
+  }
+}
+
 .landingfirst {
-  background: url('https://i.ibb.co/gmsm1yJ/thebg.png');
+  background: url('https://i.ibb.co/KXtgCMv/bgbg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -84,10 +136,6 @@ p {
     background: url('https://i.ibb.co/DG5NrXT/bgmob1.png');
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-  . {
-
   }
 }
 
