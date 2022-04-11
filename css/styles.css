@@ -34,6 +34,14 @@ body {
   .navbar-toggler {
     padding: 0.25rem 0 !important;
   }
+
+  .navbar-nav .nav-link {
+    padding-right: 0 !important;
+    padding-bottom: 0;
+  }
+  .nav-linkexpand {
+    padding-bottom: 1rem !important;
+  }
 }
 
 @media (max-width: 720px) {
@@ -54,7 +62,7 @@ body {
 }
 
 .navbar-nav .nav-link {
-  padding-right: 34px !important;
+  padding-right: 34px;
   float: right !important;
   padding-left: 0;
 }
@@ -110,6 +118,16 @@ p {
   .ourservice {
     text-align: center !important;
     padding-bottom: 0 !important;
+  }
+}
+
+.card-body {
+  padding: 2rem 0 !important;
+}
+
+@media (max-width: 700px) {
+  .card-body {
+    padding: 2px 0;
   }
 }
 
