@@ -121,6 +121,25 @@ p {
   }
 }
 
+.imgservices {
+  padding-bottom:2%;
+}
+
+@media (max-width: 720px) {
+  .imgservices {
+    padding-bottom:2%;
+  }
+
+.ourservicep {
+    padding: 0 2% !important;
+  }
+
+@media (max-width: 720px) {
+  .ourservicep {
+    padding: 0 0 5% 0 !important;
+  }
+
+
 .card {
   margin-bottom: 4%;
 }
@@ -145,7 +164,7 @@ p {
 }
 
 .landingfirst {
-  background: url('https://i.ibb.co/KXtgCMv/bgbg.png');
+  background: url('https://i.ibb.co/vk2YfGf/bgbg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -167,11 +186,11 @@ p {
 }
 
 .con1 {
-  padding: 2% 5%;
+  padding: 2% 5% 0 5%;
 }
 
 .footer {
-  font-size: 15px;
+  font-size: 15px !important;
   text-align: center;
   padding: 0 0;
   font-weight: 600;
