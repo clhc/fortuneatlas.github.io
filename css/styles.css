@@ -161,6 +161,15 @@ p {
   .w-100 {
     padding-top: 0 !important;
   }
+
+  .centertext {
+    text-align: center !important;
+  }
+
+  .ourserviceheadtext {
+    padding: 0 0 !important;
+    font-size: 0.9rem !important;
+  }
 }
 
 .landingfirst {
