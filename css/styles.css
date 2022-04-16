@@ -72,14 +72,14 @@ p {
 }
 
 .firstconpad {
-  padding-top: 10rem !important;
-  padding-bottom: 10rem !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 @media (max-width: 700px) {
   .firstconpad {
     padding-top: 4rem !important;
-    padding-bottom: 4rem !important;
+    padding-bottom: 0 !important;
   }
 }
 
@@ -164,18 +164,16 @@ p {
 }
 
 .landingfirst {
-  background: url('https://i.ibb.co/vk2YfGf/bgbg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin-top: -1%;
-}
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 @media (max-width: 700px) {
   .landingfirst {
-    background: url('https://i.ibb.co/DG5NrXT/bgmob1.png');
+    background: url('https://i.ibb.co/DG5NrXT/bgmob1.png') !important;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover !important;
+    padding: 5% 5% !important;
   }
 }
 
