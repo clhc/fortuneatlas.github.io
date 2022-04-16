@@ -162,7 +162,7 @@ p {
     padding-top: 0 !important;
   }
 
-  .centertext {
+  .centertext, .sectioncentermobile {
     text-align: center !important;
   }
 
